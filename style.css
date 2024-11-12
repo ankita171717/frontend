@@ -1,0 +1,129 @@
+<style>
+body {
+
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    main {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+    #search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    #search-bar {
+        width: 500px; /* Increased width */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        outline: none;
+    }
+    #search-button {
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 0 4px 4px 0;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+    #search-button:hover {
+        background-color: #555;
+    }
+    
+{
+    background:gray;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    background-image: url(download.jpg);
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    padding: 20px; 
+    height: 600px;
+}
+header a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header  .logo a {
+
+    background-image: url("coffee-shop-logo-food-business-template-branding-design-vector-espresso-yourself-text_53876-136278.avif");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -99999999;
+    top: -30px;
+   width: 100px;
+}
+
+      nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+ }
+
+      nav li {
+    display: inline-block;
+    margin-right: 20px;
+
+
+
+}
+    .features {
+    background:white ;
+    color: gray;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+ }
+
+ .features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+
+}
+    .features figure img {
+    border-radius: 50%;
+    height:250px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px;
+    width: 300px;
+    
+    }
+    
+
+
+footer {
+    background: black;
+    color: grey;
+    text-align: center;
+    padding: 10px 20px;
+
+    
+}
+</style>
